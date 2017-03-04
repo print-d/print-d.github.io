@@ -41,10 +41,16 @@ h1 {
   font-family: 'raleway heading', sans-serif;
   font-size: 3em; }
 
+.divider {
+  border-bottom: 2px solid #ed5f5f;
+  width: 75px;
+  margin: 0 auto;
+  margin-bottom: 30px; }
+
 .top-wrapper {
   background-image: url("../images/pattern.png");
   background-repeat: repeat;
-  min-height: 100vh; }
+  background-attachment: fixed; }
 
 header {
   position: relative; }
@@ -75,10 +81,11 @@ header {
 .intro {
   color: #ffffff;
   text-align: right;
-  padding: 2vh 3vw;
+  padding: 3vh 3vw 6vh 3vw;
   margin: 0; }
   .intro h1 {
-    margin-top: -10%; }
+    margin-top: -10%;
+    color: #ed5f5f; }
 
 .nav {
   position: absolute;
@@ -104,3 +111,22 @@ header {
       border: 1px solid #3d85c6;
       color: #3d85c6;
       border-radius: 30px; }
+
+.team {
+  background: #ffffff;
+  margin: 10vh 0;
+  padding: 0 4vw; }
+  .team h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #b7b7b7;
+    text-align: center;
+    letter-spacing: 2px; }
+  .team .col-xs {
+    padding: 0 10px; }
+  .team p {
+    line-height: 1.8em; }
+
+.deliverables {
+  color: #ed5f5f;
+  background: #314545; }
