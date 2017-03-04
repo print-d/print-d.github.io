@@ -83,9 +83,16 @@ header {
   text-align: right;
   padding: 3vh 3vw 6vh 3vw;
   margin: 0; }
+  .intro .lead {
+    padding-top: 2vh; }
   .intro h1 {
     margin-top: -10%;
-    color: #ed5f5f; }
+    color: #ffffff; }
+  .intro .divider {
+    position: absolute;
+    margin: 0 4vw 0 0;
+    right: 0;
+    width: 100px; }
 
 .nav {
   position: absolute;
