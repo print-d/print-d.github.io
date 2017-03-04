@@ -75,8 +75,47 @@
       </div>
     </section>
     <section class="deliverables" id="deliverables">
-      stuff bleh bleh
+      <h1>Deliverables</h1>
+      <div class="divider"></div>
+      <div class="row center-md">
+        <ul>
+          <li><a href="/deliverables/Pitch Presentation.pdf"><span>[Presentation]</span> Pitch</a></li>
+          <li><a href="/deliverables/Requirements Presentation.pdf"><span>[Presentation]</span> Requirements</a></li>
+          <li><a href="/deliverables/Requirements.pdf"><span>[PDF]</span> Requirements</a></li>
+        </ul>
+      </div>
     </section>
     <script src="https://use.fontawesome.com/77cc034766.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script>
+
+     $(document).ready(function(){
+     
+     $("a").on('click', function(event) {
+
+         
+         if (this.hash !== "") {
+         
+         event.preventDefault();
+
+         
+         var hash = this.hash;
+
+         
+         
+         $('html, body').animate({
+             scrollTop: $(hash).offset().top
+         }, 800, function(){
+
+             
+             window.location.hash = hash;
+         });
+         } 
+     });
+     });
+     </script>
   </body>
   </html>

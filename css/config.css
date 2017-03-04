@@ -37,9 +37,18 @@ body {
 div, section {
   box-sizing: border-box; }
 
+a {
+  text-decoration: none;
+  transition: .3s; }
+
 h1 {
   font-family: 'raleway heading', sans-serif;
-  font-size: 3em; }
+  font-size: 3em;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #e0e0e0;
+  text-align: center;
+  letter-spacing: 2px; }
 
 .divider {
   border-bottom: 2px solid #ed5f5f;
@@ -87,7 +96,9 @@ header {
     padding-top: 2vh; }
   .intro h1 {
     margin-top: -10%;
-    color: #ffffff; }
+    color: #ffffff;
+    text-align: right;
+    font-size: 2.5em; }
   .intro .divider {
     position: absolute;
     margin: 0 4vw 0 0;
@@ -111,13 +122,12 @@ header {
     float: left; }
   .nav a {
     color: #333333;
-    text-decoration: none;
     padding: 10px 20px;
-    border: 1px solid transparent; }
+    border: 1px solid transparent;
+    border-radius: 30px; }
     .nav a:hover {
       border: 1px solid #3d85c6;
-      color: #3d85c6;
-      border-radius: 30px; }
+      color: #3d85c6; }
 
 .team {
   background: #ffffff;
@@ -126,9 +136,13 @@ header {
   .team h1 {
     text-transform: uppercase;
     font-size: 2em;
-    color: #b7b7b7;
+    color: #e0e0e0;
     text-align: center;
     letter-spacing: 2px; }
+  .team h2 {
+    font-family: "raleway heading", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
   .team .col-xs {
     padding: 0 10px; }
   .team p {
@@ -136,4 +150,39 @@ header {
 
 .deliverables {
   color: #ed5f5f;
-  background: #314545; }
+  background: #3B4849;
+  margin: 0;
+  padding: 5vh 4vw; }
+  .deliverables h1 {
+    color: #ffffff;
+    margin: 0;
+    padding: 3vh 0; }
+  .deliverables ul {
+    width: 50%;
+    margin: 0;
+    padding: 0; }
+  .deliverables li {
+    display: block;
+    margin: 10px 0;
+    padding: 15px 0;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 30px; }
+    .deliverables li a {
+      font-size: 1.5em;
+      display: block;
+      color: #3B4849;
+      font-family: "raleway", sans-serif;
+      letter-spacing: 1px;
+      text-transform: uppercase; }
+      .deliverables li a span {
+        color: #e0e0e0; }
+      .deliverables li a:hover {
+        color: #ffffff; }
+    .deliverables li:hover {
+      color: #ffffff;
+      background: none;
+      border: 1px solid #ffffff;
+      transition: .3s; }
+      .deliverables li:hover a {
+        color: #ffffff; }
