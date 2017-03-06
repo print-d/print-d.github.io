@@ -136,7 +136,7 @@ header {
   .team h1 {
     text-transform: uppercase;
     font-size: 2em;
-    color: #e0e0e0;
+    color: #333;
     text-align: center;
     letter-spacing: 2px; }
   .team h2 {
